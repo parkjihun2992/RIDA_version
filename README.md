@@ -23,7 +23,7 @@ Reliable Intelligent Diagnostic Assistant
 
 * 로그 시스템 그림
 
-![Log_system](https://user-images.githubusercontent.com/56631737/107496641-e8ecbd80-6bd4-11eb-9e47-b62e545256e7.png)
+![Log_system](https://user-images.githubusercontent.com/56631737/107498502-38cc8400-6bd7-11eb-8cae-32bec56d34d3.png)
 
 위의 훈련 유무 진단 기능, 비정상 시나리오 진단 기능, 진단 결과 검증 기능의 결과들을 기록하여 저장하는 기능임.
 * 오른쪽 패널 [그래프]
