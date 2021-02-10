@@ -2117,7 +2117,7 @@ class log_system(QWidget):
         self.verif_status = QPushButton("Verification Result")
         self.verif_status.setFont(QFont('Times new roman'))
         self.verif_status.setCheckable(True)
-        self.train_plot = pyqtgraph.PlotWidget(title='Train Status Plot')
+        self.train_plot = pyqtgraph.PlotWidget(title='Training Status Plot')
         self.train_plot.showGrid(x=True, y=True, alpha=0.2)
         train_item = self.train_plot.getPlotItem()
         train_item.titleLabel.item.setFont(font)
@@ -2151,21 +2151,21 @@ class log_system(QWidget):
 
         # Training status log system
         self.train_log = QTextEdit()
-        self.train_log.resize(400,250)
+        self.train_log.resize(400,500)
         self.train_log.setWindowTitle('Training Status Log')
         self.train_log.setReadOnly(True)
         self.train_log.setFont(QFont('Times new roman'))
         self.trained_status.clicked.connect(self.train_log_control)
         # Scenario Diagnosis log system
         self.scenario_log = QTextEdit()
-        self.scenario_log.resize(400,250)
+        self.scenario_log.resize(400,500)
         self.scenario_log.setWindowTitle('Scenario Diagnosis Log')
         self.scenario_log.setReadOnly(True)
         self.scenario_log.setFont(QFont('Times new roman'))
         self.abnormal_status.clicked.connect(self.scenario_log_control)
         # Verification Result log system
         self.verif_log = QTextEdit()
-        self.verif_log.resize(400,250)
+        self.verif_log.resize(400,500)
         self.verif_log.setWindowTitle('Diagnosis Verification Log')
         self.verif_log.setReadOnly(True)
         self.verif_log.setFont(QFont('Times new roman'))
@@ -2186,6 +2186,9 @@ class log_system(QWidget):
         train_convert = {0: 'Trained condition', 1: 'Untrained condition'}
         verif_convert = {0: 'Diagnosis Success', 1: 'Diagnosis Failure'}
         self.log_display.clear()
+        self.train_log.clear()
+        self.scenario_log.clear()
+        self.verif_log.clear()
         self.train_plot.clear()
         self.scenario_plot.clear()
         self.verif_plot.clear()
