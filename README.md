@@ -14,14 +14,14 @@ Reliable Intelligent Diagnostic Assistant
 - 진단 근거 도출 기능 [XAI-SHAP]
 
 * 신규 추가 기능
-- 로그 시스템 (실시간 구동을 보완하기 위해 이전 기록들을 기록하는 기능을 수행)
+- 로그 시스템 (실시간 구동을 보완하기 위해 이전 기록들을 기록하여 제공하는 기능을 수행)
 
 * 인터페이스 그림
 
 ![Interface](https://user-images.githubusercontent.com/56631737/107496497-bba00f80-6bd4-11eb-8d88-49fb7d29a0a2.png)
 
 
-* 로그 시스템 그림
+* 로그 시스템 그림: 인공지능의 결과를 시간 순서대로 보여줌으로써 인공지능에 대한 신뢰성을 어느정도 확보가능함.
 
 ![Log_system](https://user-images.githubusercontent.com/56631737/107498502-38cc8400-6bd7-11eb-8cae-32bec56d34d3.png)
 
