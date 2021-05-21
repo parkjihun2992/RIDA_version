@@ -1,7 +1,13 @@
 # RIDA_version
 Reliable Intelligent Diagnostic Assistant
 
-버전 6기준
+버전 7 기준
+- 모델 모듈 [Shapley value의 절대값을 활용]
+- 인터페이스 모듈 [Shapley value의 절대값을 활용하나 부호를 활용하여 표시 -> 양수: Red, 음수: Blue]
+
+* 인터페이스 그림
+* 
+버전 6 기준
 - 데이터 모듈 [실시간 데이터 생성, 데이터 전처리]
 - 모델 모듈 [모델 로드, 구현 및 결과 처리]
 - 인터페이스 모듈 [결과 디스플레이]
