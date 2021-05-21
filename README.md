@@ -8,6 +8,8 @@ Reliable Intelligent Diagnostic Assistant
 * 인터페이스 그림
 
  ![image](https://user-images.githubusercontent.com/56631737/119082935-046c2d80-ba3a-11eb-95ce-535b543d9022.png)
+
+
 버전 6 기준
 - 데이터 모듈 [실시간 데이터 생성, 데이터 전처리]
 - 모델 모듈 [모델 로드, 구현 및 결과 처리]
