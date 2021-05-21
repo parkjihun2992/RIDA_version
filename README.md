@@ -5,7 +5,7 @@ Reliable Intelligent Diagnostic Assistant
  - 모델 모듈 [Shapley value의 절대값을 활용]
  - 인터페이스 모듈 [Shapley value의 절대값을 활용하나 부호를 활용하여 표시 -> 양수: Red, 음수: Blue]
 
-* 인터페이스 그림
+인터페이스 그림
 
  ![image](https://user-images.githubusercontent.com/56631737/119082935-046c2d80-ba3a-11eb-95ce-535b543d9022.png)
 
@@ -25,12 +25,12 @@ Reliable Intelligent Diagnostic Assistant
 * 신규 추가 기능
  - 로그 시스템 (실시간 구동을 보완하기 위해 이전 기록들을 기록하여 제공하는 기능을 수행)
 
-* 인터페이스 그림
+인터페이스 그림
 
 ![Interface](https://user-images.githubusercontent.com/56631737/107496497-bba00f80-6bd4-11eb-8d88-49fb7d29a0a2.png)
 
 
-* 로그 시스템 그림: 인공지능의 결과를 시간 순서대로 보여줌으로써 인공지능에 대한 신뢰성을 어느정도 확보가능함.
+로그 시스템 그림: 인공지능의 결과를 시간 순서대로 보여줌으로써 인공지능에 대한 신뢰성을 어느정도 확보가능함.
 
 ![Log_system](https://user-images.githubusercontent.com/56631737/107498502-38cc8400-6bd7-11eb-8cae-32bec56d34d3.png)
 
